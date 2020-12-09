@@ -1,0 +1,297 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.blu-buttom {
+    border-radius: 20px;
+    background-color: #4154fe;
+    border: 2px solid #4154fe;
+    color: #ffffff;
+    padding: 8px 14px;
+    font-size: 11px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.blu-buttom:hover {
+    background-color: #ec5a57;
+    border: 2px solid #ec5a57;
+}
+
+.trasparente-buttom {
+    border-radius: 20px;
+    border: 1px solid #78787a;
+    background-color: inherit;
+    color: #ffffff;
+    padding: 9px 15px;
+    font-size: 11px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.trasparente-buttom:hover {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #060606;
+}
+
+.play-circle {
+    color: #4154fe;
+    border: 1px solid #ffffff;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.play-circle.small-circle {
+    padding: 20px;
+}
+
+.separator-yellow {
+    color: #fff941;
+    font-size: 50px;
+}
+
+.separator-white {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.separator-blue {
+    color: #4154ff;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.take-control {
+    height: 480px;
+    background-image: url("../immagini/slider82x-scaled.jpg");
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+.take-control-text {
+    color: #ffffff;
+    position: relative;
+    z-index: 2;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.take-control-text h4 {
+    color: #bc0428;
+    margin-bottom: 15px;
+}
+
+.take-control-text h1 {
+    font-weight: 400;
+    font-size: 45px;
+    margin-bottom: 8px;
+}
+
+.take-control-text span {
+    color: #bcbcbc;
+    margin: 20px 0px;
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.take-control-text.bottoni {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.take-control-text button {
+    margin-top: 10px;
+}
+
+.take-control-icon {
+    display: none;
+}
+
+.take-control::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(90deg, #060607 45%, rgba(6, 6, 7, 0) 75%);
+    width: 100%;
+    height: 100%;
+}
+
+.type-fitness {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: linear-gradient(150deg, #0219eb 0%, #d5000b 100%);
+    padding-bottom: 100px;
+}
+
+.type-fitness p {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.type-fitness-img1 {
+    width: 280px;
+    height: 280px;
+    margin: 0px 20px;
+    position: relative;
+    margin-top: -40px;
+    margin-bottom: 80px;
+    border-radius: 4px 4px 40px 4px;
+    background-size: 280px 280px;
+    background-image: linear-gradient(180deg, rgba(3, 4, 15, 0) 11%, rgba(3, 4, 15, 0.7) 100%), url('../immagini/service6-2x.jpg');
+}
+
+.type-fitness-img2 {
+    width: 280px;
+    height: 280px;
+    margin: 0px 20px;
+    position: relative;
+    margin-top: -40px;
+    margin-bottom: 80px;
+    border-radius: 4px 4px 40px 4px;
+    background-size: 280px 280px;
+    background-image: linear-gradient(180deg, rgba(3, 4, 15, 0) 11%, rgba(3, 4, 15, 0.7) 100%), url('../immagini/box1-2x.jpg');
+}
+
+.type-fitness-img3 {
+    width: 280px;
+    height: 280px;
+    margin: 0px 20px;
+    position: relative;
+    margin-top: -40px;
+    margin-bottom: 80px;
+    border-radius: 4px 4px 40px 4px;
+    background-size: 280px 280px;
+    background-image: linear-gradient(180deg, rgba(3, 4, 15, 0) 11%, rgba(3, 4, 15, 0.7) 100%), url('../immagini/box3-2x.jpg');
+}
+
+.type-fitness-bottom {
+    max-width: 600px;
+    margin: 20px;
+}
+
+.type-fitness-footer span {
+    color: #bcbcbc;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.type-fitness-footer img {
+    margin: 0px 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.type-fitness-footer span.name {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.fitness-online-left {
+    display: block;
+    height: 560px;
+    margin-top: -60px;
+    position: relative;
+}
+
+.fitness-online-left img {
+    width: 98%;
+    height: 150%;
+    border-radius: 0px 3px 20px 0px;
+}
+
+.fitness-online-right {
+    height: calc(500px - 60px);
+    margin: 0 20px;
+}
+
+.fitness-online-right h4 {
+    color: #4154fe;
+    margin-bottom: 15px;
+}
+
+.fitness-online-right h1 {
+    font-weight: 400;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.fitness-online-right img {
+    width: 30px;
+    height: 30px;
+}
+
+.fitness-online-right span {
+    color: rgb(82, 74, 89);
+    margin: 20px 0px;
+    font-size: 13px;
+}
+
+.red-button {
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 8px 14px;
+    font-size: 11px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.red-button:hover {
+    background-color: #ff414b;
+    border: 2px solid #ff414b;
+}
+
+.immagini-fitness-online {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.immagine-right {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.immagine-right small {
+    font-size: 10px;
+    color: #bcbcbc;
+}
+
+.youtube {
+    border: 1px solid #bcbcbc;
+    border-radius: 4px;
+    font-size: 10px;
+    color: black;
+}
+
+.youtube-text {
+    background-color: #e62020;
+    padding: 2px 4px;
+}
+
+.youtube-number {
+    background-color: white;
+    padding: 2px 4px;
+}
+
+.youtube p {
+    display: inline-block;
+}
