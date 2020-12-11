@@ -1,9 +1,8 @@
-body {
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-
 /* HEADER */
+
+html {
+    overflow-x: hidden;
+}
 
 header {
     background-color: #060606;
@@ -104,6 +103,7 @@ header {
 }
 
 .take-control {
+    width: 100%;
     height: 480px;
     background-image: url("../immagini/slider82x-scaled.jpg");
     background-position: top;
@@ -153,7 +153,7 @@ header {
 }
 
 .take-control-icon {
-    display: none;
+    z-index: 2;
 }
 
 .take-control::after {
@@ -180,7 +180,7 @@ header {
     font-weight: bold;
 }
 
-.type-fitness-img1 {
+.img1 {
     width: 280px;
     height: 280px;
     margin: 0px 20px;
@@ -192,7 +192,7 @@ header {
     background-image: linear-gradient(180deg, rgba(3, 4, 15, 0) 11%, rgba(3, 4, 15, 0.7) 100%), url('../immagini/service6-2x.jpg');
 }
 
-.type-fitness-img2 {
+.img2 {
     width: 280px;
     height: 280px;
     margin: 0px 20px;
@@ -204,7 +204,7 @@ header {
     background-image: linear-gradient(180deg, rgba(3, 4, 15, 0) 11%, rgba(3, 4, 15, 0.7) 100%), url('../immagini/box1-2x.jpg');
 }
 
-.type-fitness-img3 {
+.img3 {
     width: 280px;
     height: 280px;
     margin: 0px 20px;
@@ -214,6 +214,56 @@ header {
     border-radius: 4px 4px 40px 4px;
     background-size: 280px 280px;
     background-image: linear-gradient(180deg, rgba(3, 4, 15, 0) 11%, rgba(3, 4, 15, 0.7) 100%), url('../immagini/box3-2x.jpg');
+}
+
+.quadratino {
+    background: #ffff;
+    font-size: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    color: #5c5c5f;
+    font-weight: bold;
+}
+
+.uno {
+    position: absolute;
+    top: 30px;
+    right: -40%;
+}
+
+.due {
+    position: absolute;
+    top: 124px;
+    right: -40%;
+}
+
+.type-fitness-img i {
+    position: absolute;
+    top: 170px;
+    left: 25px;
+    z-index: 100;
+}
+
+.type-fitness-img span {
+    position: absolute;
+    top: 200px;
+    left: 25px;
+    color: #ffffff;
+    font-size: 20px;
+    z-index: 100;
+}
+
+.type-fitness-img p {
+    position: absolute;
+    top: 225px;
+    left: 25px;
+    color: #fff941;
+    font-size: 15px;
+    z-index: 100;
+}
+
+.green {
+    color: green;
 }
 
 .type-fitness-bottom {
@@ -855,12 +905,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px 20px;
 }
 
 .footer-bottom-container p {
     color: #98939f;
     font-size: 17px;
+    padding-top: 20px;
 }
 
 .footer-bottom-container span {
